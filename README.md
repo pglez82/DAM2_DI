@@ -8,7 +8,7 @@ Lista de ejemplos para la asignatura Desarrollo de Aplicaciones Multiplataforma 
 * **Partidos**. [Repaso] Programa en consola de gestión de partidos.
 * **Planetas**. [Repaso] Programa de cálculo sobre planetas usando como fuente un CSV.
 * **EjemploComboBox**. Ejemplo de uso de un ComboBox en Swing.
-* **EjemploComboBox**. Ejemplo de comunicación entre un JFrame y un JDialog utilizando un objeto lógica de negocio.
+* **ComunicacionDialogos**. Ejemplo de comunicación entre un JFrame y un JDialog utilizando un objeto lógica de negocio.
 
 
 

@@ -1,8 +1,5 @@
 # DAM_DI
-Lista de ejemplos para la asignatura Desarrollo de Aplicaciones Multiplataforma (DAM2).
-
-## Ejemplos de repaso
-
+Lista de ejemplos útiles para la asignatura Desarrollo de Aplicaciones Multiplataforma (DAM2).
 
 ## UT1
 * **Partidos**. [Repaso] Programa en consola de gestión de partidos.

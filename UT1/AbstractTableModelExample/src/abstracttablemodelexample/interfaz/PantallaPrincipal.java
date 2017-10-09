@@ -5,6 +5,7 @@
  */
 package abstracttablemodelexample.interfaz;
 
+import abstracttablemodelexample.interfaz.tablemodels.TableModelAlumnos;
 import abstracttablemodelexample.beans.Alumno;
 import abstracttablemodelexample.logica.LogicaNegocio;
 import javax.swing.table.DefaultTableModel;

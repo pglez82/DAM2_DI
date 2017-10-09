@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package abstracttablemodelexample.interfaz;
+package abstracttablemodelexample.interfaz.tablemodels;
 
 import abstracttablemodelexample.beans.Alumno;
 import java.util.List;
@@ -16,6 +16,7 @@ import javax.swing.table.AbstractTableModel;
 public class TableModelAlumnos extends AbstractTableModel 
 {
     private final List<Alumno> listaAlumnos;
+    private final String[] columnas = {"Nombre","Curso"};
     
     public TableModelAlumnos(List<Alumno> listaAlumnos)
     {
@@ -32,13 +33,12 @@ public class TableModelAlumnos extends AbstractTableModel
     //Devuelve el número de columnas
     @Override
     public int getColumnCount() {
-        return 2;
+        return columnas.length;
     }
 
     //Devuelve la columna correspondiente al índice
     @Override
     public String getColumnName(int column) {
-        String[] columnas = {"Nombre","Curso"};
         return columnas[column];
     }
 

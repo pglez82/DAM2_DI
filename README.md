@@ -6,6 +6,8 @@ Lista de ejemplos útiles para la asignatura Desarrollo de Aplicaciones Multipla
 * **Planetas**. [Repaso] Programa de cálculo sobre planetas usando como fuente un CSV.
 * **EjemploComboBox**. Ejemplo de uso de un ComboBox en Swing.
 * **ComunicacionDialogos**. Ejemplo de comunicación entre un JFrame y un JDialog utilizando un objeto lógica de negocio.
+* **AbstractTableModelExample**. Ejemplo de rellenar una tabla utilizando nuestra propia implementación del TableModel.
+* **ReutilizacionDialogos**. Ejemplo para realizar un diálogo de modificación y de alta utilizando para ello una única implementación de JDialog.
 
 
 

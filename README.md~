@@ -10,7 +10,6 @@ Lista de ejemplos útiles para la asignatura Desarrollo de Aplicaciones Multipla
 * **ReutilizacionDialogos**. Ejemplo para realizar un diálogo de modificación y de alta utilizando para ello una única implementación de JDialog.
 * **EjemploJOptionPane**. Ejemplo para entender como funciona la clase JOptionPane.
 * **EjemploValidacion**. Ejemplo sobre como realizar una validación en un formulario.
-* **IconosImagesExample**. Ejemplo sobre como utilizar imágenes en un interfaz Swing.
 
 
 

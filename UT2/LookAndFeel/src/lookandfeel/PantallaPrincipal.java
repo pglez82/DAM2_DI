@@ -5,12 +5,10 @@
  */
 package lookandfeel;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
-import javax.swing.UnsupportedLookAndFeelException;
+import javax.swing.UIManager.LookAndFeelInfo;
 
 /**
  *
@@ -23,7 +21,9 @@ public class PantallaPrincipal extends javax.swing.JFrame {
      */
     public PantallaPrincipal() {
         initComponents();
-        DefaultComboBoxModel dcm = new DefaultComboBoxModel(UIManager.getInstalledLookAndFeels());
+        DefaultComboBoxModel dcm = new DefaultComboBoxModel();
+        for (LookAndFeelInfo lfi : UIManager.getInstalledLookAndFeels())
+            dcm.addElement(lfi.getName());
         jComboBoxLAndF.setModel(dcm);
     }
 

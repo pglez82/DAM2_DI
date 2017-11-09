@@ -6,6 +6,8 @@
 package componentetemporizador;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 import javax.swing.JLabel;
@@ -19,9 +21,12 @@ public class ComponenteTemporizador extends JLabel implements Serializable
     private int numSegundos;
     private int contador;
     
+    //Eventos
+    private List<TemporizadorListener> temporizadorListener;
+    
     public ComponenteTemporizador()
     {
-        
+        temporizadorListener = new ArrayList<>();
     }
 
     public int getNumSegundos()
@@ -34,6 +39,11 @@ public class ComponenteTemporizador extends JLabel implements Serializable
         this.numSegundos = numSegundos;
         setText(Integer.toString(numSegundos));
         cuentaAtras();
+    }
+    
+    public void addTemporizadorListener(TemporizadorListener l)
+    {
+        this.temporizadorListener.add(l);
     }
     
     private void cuentaAtras()
@@ -50,6 +60,10 @@ public class ComponenteTemporizador extends JLabel implements Serializable
                 }
                 else
                 {
+                    //Llamada al evento
+                    for (TemporizadorListener l : temporizadorListener)
+                        l.finCuentaAtras();
+                    
                     this.cancel();
                 }
             }

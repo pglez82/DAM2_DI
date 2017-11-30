@@ -1,0 +1,12 @@
+<html>
+<head>
+	<title>Ejemplo de JavaHelp</title>
+</head>
+<body>
+	<h1>Ejemplo de JavaHelp</h1>
+	<p>Esta aplicacion sirve como ejemplo de uso de JavaHelp.</p>
+	<p>Esta pagina es la ayuda principal. La aplicacion consta de dos ventanas,
+	una <a href="principal.html">principal</a> y la otra <a href="secundaria.html">secundaria</a>. Cada una de las ventanas tiene su propia
+	pagina de ayuda.</p>
+</body>
+</html>

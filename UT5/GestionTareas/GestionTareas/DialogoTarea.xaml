@@ -1,0 +1,24 @@
+﻿<Window x:Class="GestionTareas.DialogoTarea"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Tarea" Height="350.145" Width="300"
+        MinHeight="350.145" MinWidth="300"
+        >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="49*"/>
+            <ColumnDefinition Width="97*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Título:" Margin="10,24,185,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <Label Content="Fecha límite:" Margin="10,80,3,0" VerticalAlignment="Top" RenderTransformOrigin="0.541,0.509"/>
+        <Label Content="Descripción:" Margin="10,148,171,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <DatePicker x:Name="DatePickerFechaLimite" SelectedDate="{Binding FechaLimite}" Margin="2,81,10,0" VerticalAlignment="Top" ToolTip="Fecha límite de realización de la tarea" Grid.Column="1"/>
+        <TextBox x:Name="TextBoxTitulo" MaxLength="50" Validation.Error="Validation_Error" Text="{Binding Titulo,NotifyOnValidationError=True,ValidatesOnDataErrors=True}" Height="23" Margin="2,27,10,0" TextWrapping="Wrap" VerticalAlignment="Top" ToolTip="Introduce el título de la tarea" Grid.Column="1"/>
+        <CheckBox x:Name="CheckBoxFinalizada" IsChecked="{Binding Finalizada}" Content="Tarea realizada" Margin="2,130,77,0" VerticalAlignment="Top" RenderTransformOrigin="0.757,0.521" Height="18" ToolTip="Indica si está finalizada o no la tarea" Grid.Column="1"/>
+        <Button x:Name="ButtonCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="10,0,0,10" Width="120" Click="ButtonCancelar_Click" Height="35" VerticalAlignment="Bottom" Grid.ColumnSpan="2"/>
+        <Button x:Name="ButtonAceptar" Content="Aceptar" Margin="0,0,10,10" Click="ButtonAceptar_Click" Height="35" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="120" Grid.Column="1"/>
+        <TextBox Text="{Binding Descripcion}"  TextWrapping="Wrap" AcceptsReturn="True" Margin="10,174,10,50" ToolTip="Descripción de la tarea" Grid.ColumnSpan="2"/>
+        <Image Source="imgs/imagen1.png" Height="46" Margin="0,116,10,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="49" Grid.Column="1"/>
+
+    </Grid>
+</Window>

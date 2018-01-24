@@ -20,6 +20,7 @@ Lista de ejemplos útiles para la asignatura Desarrollo de Aplicaciones Multipla
 * **RelojDigital**. Solución al ejemplo RelojDigital con alarma.
 ## UT4
 * **JavaHelpExample**. Ejemplo de aplicación con un sistema JavaHelp integrado.
-
+## UT5
+* **GestionTareas**. Ejemplo de gestión de tareas en WPF.
 
 

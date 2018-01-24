@@ -1,0 +1,17 @@
+\\VBOXSVR\borrar\GestionTareas\SolucionTarea6\bin\Debug\GestionTareas.exe.config
+\\VBOXSVR\borrar\GestionTareas\SolucionTarea6\bin\Debug\GestionTareas.exe
+\\VBOXSVR\borrar\GestionTareas\SolucionTarea6\bin\Debug\GestionTareas.pdb
+\\VBOXSVR\borrar\GestionTareas\SolucionTarea6\obj\Debug\DialogoTarea.baml
+\\VBOXSVR\borrar\GestionTareas\SolucionTarea6\obj\Debug\MainWindow.baml
+\\VBOXSVR\borrar\GestionTareas\SolucionTarea6\obj\Debug\DialogoTarea.g.cs
+\\VBOXSVR\borrar\GestionTareas\SolucionTarea6\obj\Debug\MainWindow.g.cs
+\\VBOXSVR\borrar\GestionTareas\SolucionTarea6\obj\Debug\App.g.cs
+\\VBOXSVR\borrar\GestionTareas\SolucionTarea6\obj\Debug\GestionTareas_MarkupCompile.cache
+\\VBOXSVR\borrar\GestionTareas\SolucionTarea6\obj\Debug\GestionTareas.g.resources
+\\VBOXSVR\borrar\GestionTareas\SolucionTarea6\obj\Debug\GestionTareas.Properties.Resources.resources
+\\VBOXSVR\borrar\GestionTareas\SolucionTarea6\obj\Debug\GestionTareas.csproj.GenerateResource.Cache
+\\VBOXSVR\borrar\GestionTareas\SolucionTarea6\obj\Debug\GestionTareas.exe
+\\VBOXSVR\borrar\GestionTareas\SolucionTarea6\obj\Debug\GestionTareas.pdb
+\\VBOXSVR\borrar\GestionTareas\GestionTareas\bin\Debug\GestionTareas.exe.config
+\\VBOXSVR\borrar\GestionTareas\GestionTareas\obj\Debug\GestionTareas.exe
+\\VBOXSVR\borrar\GestionTareas\GestionTareas\obj\Debug\GestionTareas.pdb

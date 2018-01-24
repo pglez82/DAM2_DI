@@ -1,0 +1,60 @@
+c:\users\alumno\documents\visual studio 2012\Projects\SolucionTarea6\SolucionTarea6\bin\Debug\SolucionTarea6.exe.config
+c:\users\alumno\documents\visual studio 2012\Projects\SolucionTarea6\SolucionTarea6\bin\Debug\SolucionTarea6.exe
+c:\users\alumno\documents\visual studio 2012\Projects\SolucionTarea6\SolucionTarea6\bin\Debug\SolucionTarea6.pdb
+c:\users\alumno\documents\visual studio 2012\Projects\SolucionTarea6\SolucionTarea6\obj\Debug\SolucionTarea6.csprojResolveAssemblyReference.cache
+c:\users\alumno\documents\visual studio 2012\Projects\SolucionTarea6\SolucionTarea6\obj\Debug\DialogoTarea.baml
+c:\users\alumno\documents\visual studio 2012\Projects\SolucionTarea6\SolucionTarea6\obj\Debug\MainWindow.baml
+c:\users\alumno\documents\visual studio 2012\Projects\SolucionTarea6\SolucionTarea6\obj\Debug\DialogoTarea.g.cs
+c:\users\alumno\documents\visual studio 2012\Projects\SolucionTarea6\SolucionTarea6\obj\Debug\MainWindow.g.cs
+c:\users\alumno\documents\visual studio 2012\Projects\SolucionTarea6\SolucionTarea6\obj\Debug\App.g.cs
+c:\users\alumno\documents\visual studio 2012\Projects\SolucionTarea6\SolucionTarea6\obj\Debug\SolucionTarea6_MarkupCompile.cache
+c:\users\alumno\documents\visual studio 2012\Projects\SolucionTarea6\SolucionTarea6\obj\Debug\SolucionTarea6.g.resources
+c:\users\alumno\documents\visual studio 2012\Projects\SolucionTarea6\SolucionTarea6\obj\Debug\SolucionTarea6.Properties.Resources.resources
+c:\users\alumno\documents\visual studio 2012\Projects\SolucionTarea6\SolucionTarea6\obj\Debug\SolucionTarea6.csproj.GenerateResource.Cache
+c:\users\alumno\documents\visual studio 2012\Projects\SolucionTarea6\SolucionTarea6\obj\Debug\SolucionTarea6.exe
+c:\users\alumno\documents\visual studio 2012\Projects\SolucionTarea6\SolucionTarea6\obj\Debug\SolucionTarea6.pdb
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\bin\Debug\SolucionTarea6.exe.config
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\obj\Debug\SolucionTarea6.exe
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\obj\Debug\SolucionTarea6.pdb
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\bin\Debug\SolucionTarea6.exe
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\bin\Debug\SolucionTarea6.pdb
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\obj\Debug\DialogoTarea.baml
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\obj\Debug\MainWindow.baml
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\obj\Debug\DialogoTarea.g.cs
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\obj\Debug\MainWindow.g.cs
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\obj\Debug\App.g.cs
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\obj\Debug\SolucionTarea6_MarkupCompile.cache
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\obj\Debug\SolucionTarea6.g.resources
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\obj\Debug\SolucionTarea6.Properties.Resources.resources
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\obj\Debug\SolucionTarea6.csproj.GenerateResource.Cache
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\obj\Debug\SolucionTarea6.csprojResolveAssemblyReference.cache
+C:\Users\pablo\Desktop\SolucionTarea6\SolucionTarea6\bin\Debug\SolucionTarea6.exe.config
+C:\Users\pablo\Desktop\SolucionTarea6\SolucionTarea6\obj\Debug\SolucionTarea6.exe
+C:\Users\pablo\Desktop\SolucionTarea6\SolucionTarea6\obj\Debug\SolucionTarea6.pdb
+C:\Users\pablo\Desktop\SolucionTarea6\SolucionTarea6\bin\Debug\SolucionTarea6.exe
+C:\Users\pablo\Desktop\SolucionTarea6\SolucionTarea6\bin\Debug\SolucionTarea6.pdb
+C:\Users\pablo\Desktop\SolucionTarea6\SolucionTarea6\obj\Debug\SolucionTarea6.csprojResolveAssemblyReference.cache
+C:\Users\pablo\Desktop\SolucionTarea6\SolucionTarea6\obj\Debug\DialogoTarea.baml
+C:\Users\pablo\Desktop\SolucionTarea6\SolucionTarea6\obj\Debug\MainWindow.baml
+C:\Users\pablo\Desktop\SolucionTarea6\SolucionTarea6\obj\Debug\DialogoTarea.g.cs
+C:\Users\pablo\Desktop\SolucionTarea6\SolucionTarea6\obj\Debug\MainWindow.g.cs
+C:\Users\pablo\Desktop\SolucionTarea6\SolucionTarea6\obj\Debug\App.g.cs
+C:\Users\pablo\Desktop\SolucionTarea6\SolucionTarea6\obj\Debug\SolucionTarea6_MarkupCompile.cache
+C:\Users\pablo\Desktop\SolucionTarea6\SolucionTarea6\obj\Debug\SolucionTarea6.g.resources
+C:\Users\pablo\Desktop\SolucionTarea6\SolucionTarea6\obj\Debug\SolucionTarea6.Properties.Resources.resources
+C:\Users\pablo\Desktop\SolucionTarea6\SolucionTarea6\obj\Debug\SolucionTarea6.csproj.GenerateResource.Cache
+\\VBOXSVR\borrar\SolucionTarea6\SolucionTarea6\bin\Debug\SolucionTarea6.exe.config
+\\VBOXSVR\borrar\SolucionTarea6\SolucionTarea6\obj\Debug\SolucionTarea6.exe
+\\VBOXSVR\borrar\SolucionTarea6\SolucionTarea6\obj\Debug\SolucionTarea6.pdb
+\\VBOXSVR\borrar\SolucionTarea6\SolucionTarea6\bin\Debug\SolucionTarea6.exe
+\\VBOXSVR\borrar\SolucionTarea6\SolucionTarea6\bin\Debug\SolucionTarea6.pdb
+\\VBOXSVR\borrar\SolucionTarea6\SolucionTarea6\obj\Debug\SolucionTarea6.csprojResolveAssemblyReference.cache
+\\VBOXSVR\borrar\SolucionTarea6\SolucionTarea6\obj\Debug\DialogoTarea.baml
+\\VBOXSVR\borrar\SolucionTarea6\SolucionTarea6\obj\Debug\MainWindow.baml
+\\VBOXSVR\borrar\SolucionTarea6\SolucionTarea6\obj\Debug\DialogoTarea.g.cs
+\\VBOXSVR\borrar\SolucionTarea6\SolucionTarea6\obj\Debug\MainWindow.g.cs
+\\VBOXSVR\borrar\SolucionTarea6\SolucionTarea6\obj\Debug\App.g.cs
+\\VBOXSVR\borrar\SolucionTarea6\SolucionTarea6\obj\Debug\SolucionTarea6_MarkupCompile.cache
+\\VBOXSVR\borrar\SolucionTarea6\SolucionTarea6\obj\Debug\SolucionTarea6.g.resources
+\\VBOXSVR\borrar\SolucionTarea6\SolucionTarea6\obj\Debug\SolucionTarea6.Properties.Resources.resources
+\\VBOXSVR\borrar\SolucionTarea6\SolucionTarea6\obj\Debug\SolucionTarea6.csproj.GenerateResource.Cache

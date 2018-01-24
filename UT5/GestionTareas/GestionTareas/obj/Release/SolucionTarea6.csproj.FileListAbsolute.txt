@@ -1,0 +1,14 @@
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\bin\Release\SolucionTarea6.exe.config
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\bin\Release\SolucionTarea6.exe
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\bin\Release\SolucionTarea6.pdb
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\obj\Release\DialogoTarea.baml
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\obj\Release\MainWindow.baml
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\obj\Release\DialogoTarea.g.cs
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\obj\Release\MainWindow.g.cs
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\obj\Release\App.g.cs
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\obj\Release\SolucionTarea6_MarkupCompile.cache
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\obj\Release\SolucionTarea6.g.resources
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\obj\Release\SolucionTarea6.Properties.Resources.resources
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\obj\Release\SolucionTarea6.csproj.GenerateResource.Cache
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\obj\Release\SolucionTarea6.exe
+C:\Users\pablo\Desktop\Tema6\SolucionTarea6\SolucionTarea6\obj\Release\SolucionTarea6.pdb

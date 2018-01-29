@@ -1,0 +1,20 @@
+﻿<Window x:Class="ActividadAgenda.VentanaEvento"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="VentanaEvento" Height="300" Width="300">
+    <Grid>
+        <DatePicker x:Name="DatePickerFecha" SelectedDate="{Binding Path=FechaHora}" HorizontalAlignment="Left" Margin="74,12,0,0" VerticalAlignment="Top"/>
+        <Label Content="Fecha:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Texto:" HorizontalAlignment="Left" Margin="10,79,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextBoxTexto" HorizontalAlignment="Left" Height="23" Margin="74,82,0,0" TextWrapping="Wrap" Text="{Binding Path=Texto, NotifyOnValidationError=True,ValidatesOnDataErrors=True}" Validation.Error="Validation_Error" VerticalAlignment="Top" Width="208"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="74,110,0,0" TextWrapping="Wrap" Text="{Binding Path=Lugar,NotifyOnValidationError=True,ValidatesOnDataErrors=True}" Validation.Error="Validation_Error" VerticalAlignment="Top" Width="208"/>
+        <Label Content="Lugar:" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="ButtonAceptar" Content="Aceptar" HorizontalAlignment="Left" Margin="10,144,0,0" VerticalAlignment="Top" Width="75" Click="ButtonAceptar_Click"/>
+        <Label Content="Hora:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="74,41,0,0" TextWrapping="Wrap" Text="{Binding Path=Horas}" VerticalAlignment="Top" Width="41" RenderTransformOrigin="0.488,0.449"/>
+        <Label Content="horas" HorizontalAlignment="Left" Margin="129,38,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="173,41,0,0" TextWrapping="Wrap" Text="{Binding Path=Minutos}" VerticalAlignment="Top" Width="37"/>
+        <Label Content="Minutos" HorizontalAlignment="Left" Margin="229,38,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

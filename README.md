@@ -22,5 +22,5 @@ Lista de ejemplos útiles para la asignatura Desarrollo de Aplicaciones Multipla
 * **JavaHelpExample**. Ejemplo de aplicación con un sistema JavaHelp integrado.
 ## UT5
 * **GestionTareas**. Ejemplo de gestión de tareas en WPF.
-
+* **GestionAgenda**. Ejemplo de una agenda en WPF.
 

@@ -1,0 +1,17 @@
+\\VBOXSVR\borrar\SolucionTareaUT6\SolucionTareaUT6\bin\Debug\ActividadAgenda.exe.config
+\\VBOXSVR\borrar\SolucionTareaUT6\SolucionTareaUT6\bin\Debug\ActividadAgenda.exe
+\\VBOXSVR\borrar\SolucionTareaUT6\SolucionTareaUT6\bin\Debug\ActividadAgenda.pdb
+\\VBOXSVR\borrar\SolucionTareaUT6\SolucionTareaUT6\obj\Debug\MainWindow.baml
+\\VBOXSVR\borrar\SolucionTareaUT6\SolucionTareaUT6\obj\Debug\VentanaEvento.baml
+\\VBOXSVR\borrar\SolucionTareaUT6\SolucionTareaUT6\obj\Debug\MainWindow.g.cs
+\\VBOXSVR\borrar\SolucionTareaUT6\SolucionTareaUT6\obj\Debug\VentanaEvento.g.cs
+\\VBOXSVR\borrar\SolucionTareaUT6\SolucionTareaUT6\obj\Debug\App.g.cs
+\\VBOXSVR\borrar\SolucionTareaUT6\SolucionTareaUT6\obj\Debug\ActividadAgenda_MarkupCompile.cache
+\\VBOXSVR\borrar\SolucionTareaUT6\SolucionTareaUT6\obj\Debug\ActividadAgenda.g.resources
+\\VBOXSVR\borrar\SolucionTareaUT6\SolucionTareaUT6\obj\Debug\ActividadAgenda.Properties.Resources.resources
+\\VBOXSVR\borrar\SolucionTareaUT6\SolucionTareaUT6\obj\Debug\ActividadAgenda.csproj.GenerateResource.Cache
+\\VBOXSVR\borrar\SolucionTareaUT6\SolucionTareaUT6\obj\Debug\ActividadAgenda.exe
+\\VBOXSVR\borrar\SolucionTareaUT6\SolucionTareaUT6\obj\Debug\ActividadAgenda.pdb
+\\VBOXSVR\borrar\ActividadAgenda\ActividadAgenda\bin\Debug\ActividadAgenda.exe.config
+\\VBOXSVR\borrar\ActividadAgenda\ActividadAgenda\obj\Debug\ActividadAgenda.exe
+\\VBOXSVR\borrar\ActividadAgenda\ActividadAgenda\obj\Debug\ActividadAgenda.pdb

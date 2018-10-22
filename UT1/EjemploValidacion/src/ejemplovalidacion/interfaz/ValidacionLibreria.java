@@ -8,6 +8,7 @@ package ejemplovalidacion.interfaz;
 import java.util.Locale;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
+import org.netbeans.validation.api.builtin.stringvalidation.MayusculaValidator;
 import org.netbeans.validation.api.builtin.stringvalidation.StringValidators;
 import org.netbeans.validation.api.ui.ValidationGroup;
 
@@ -25,7 +26,9 @@ public class ValidacionLibreria extends javax.swing.JFrame {
         initComponents();
         jButtonAceptar.setEnabled(false);
         ValidationGroup group = validationPanel.getValidationGroup();
-        group.add(jTextFieldNombre, StringValidators.REQUIRE_NON_EMPTY_STRING);
+        //Añadimos el validador de que no esté vacío el campo y nuestro validador que
+        //comprueba si la primera letra es mayúscula
+        group.add(jTextFieldNombre, StringValidators.REQUIRE_NON_EMPTY_STRING, new MayusculaValidator());
         group.add(jTextFieldEdad, StringValidators.REQUIRE_NON_EMPTY_STRING,StringValidators.REQUIRE_VALID_INTEGER);
         
         validationPanel.addChangeListener(new ChangeListener() {

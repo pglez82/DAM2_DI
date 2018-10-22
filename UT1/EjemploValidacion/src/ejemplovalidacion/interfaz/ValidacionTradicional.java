@@ -97,7 +97,16 @@ public class ValidacionTradicional extends javax.swing.JFrame {
         
         try
         {
-            Integer.parseInt(jTextFieldEdad.getText());
+            int edad = Integer.parseInt(jTextFieldEdad.getText());
+            if (edad <0)
+            {
+                
+                return false;
+            }
+            if (edad>120)
+            {
+                return false;
+            }
         }
         catch (NumberFormatException n)
         {

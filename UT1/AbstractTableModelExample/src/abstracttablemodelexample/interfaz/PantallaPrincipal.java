@@ -8,7 +8,14 @@ package abstracttablemodelexample.interfaz;
 import abstracttablemodelexample.interfaz.tablemodels.TableModelAlumnos;
 import abstracttablemodelexample.beans.Alumno;
 import abstracttablemodelexample.logica.LogicaNegocio;
+import java.util.ArrayList;
+import java.util.List;
+import javax.swing.RowFilter;
+import javax.swing.RowSorter;
+import javax.swing.RowSorter.SortKey;
+import javax.swing.SortOrder;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableRowSorter;
 
 /**
  *
@@ -17,6 +24,11 @@ import javax.swing.table.DefaultTableModel;
 public class PantallaPrincipal extends javax.swing.JFrame {
 
     private LogicaNegocio logicaNegocio = new LogicaNegocio();
+    
+    //Almacenamos aquí esta propiedad para poder acceder a ella desde el botón
+    //de filtrar
+    private TableRowSorter<TableModelAlumnos> sorter;
+    
     /**
      * Creates new form PantallaPrincipal
      */
@@ -28,7 +40,18 @@ public class PantallaPrincipal extends javax.swing.JFrame {
     //Utilizando un AbstractTableModel
     private void rellenarTablaAlumnos()
     {
-        jTableAlumnos.setModel(new TableModelAlumnos(logicaNegocio.getListaAlumnos()));
+        TableModelAlumnos tma = new TableModelAlumnos(logicaNegocio.getListaAlumnos());
+        jTableAlumnos.setModel(tma);
+        
+        //Añadimos la funcionalidad de ordenar
+        sorter = new TableRowSorter<>(tma);
+        jTableAlumnos.setRowSorter(sorter);
+        
+        //Establecemos el orden por defecto
+        List<SortKey> sortKeys = new ArrayList<>();
+        sortKeys.add(new SortKey(0,SortOrder.DESCENDING));
+        sorter.setSortKeys(sortKeys);
+        
     }
     
     private void rellenarTablaAlumnos2()
@@ -58,6 +81,11 @@ public class PantallaPrincipal extends javax.swing.JFrame {
 
         jScrollPane1 = new javax.swing.JScrollPane();
         jTableAlumnos = new javax.swing.JTable();
+        jLabelSeleccionado = new javax.swing.JLabel();
+        jButtonSeleccion = new javax.swing.JButton();
+        jTextFieldFiltrar = new javax.swing.JTextField();
+        jButtonFiltrar = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -74,19 +102,76 @@ public class PantallaPrincipal extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(jTableAlumnos);
 
+        jButtonSeleccion.setText("Selección");
+        jButtonSeleccion.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonSeleccionActionPerformed(evt);
+            }
+        });
+
+        jButtonFiltrar.setText("Filtrar");
+        jButtonFiltrar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonFiltrarActionPerformed(evt);
+            }
+        });
+
+        jLabel1.setText("Nombre:");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 400, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jButtonSeleccion)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabelSeleccionado, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jTextFieldFiltrar, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jButtonFiltrar))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 300, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabelSeleccionado, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButtonSeleccion)
+                    .addComponent(jTextFieldFiltrar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButtonFiltrar)
+                    .addComponent(jLabel1))
+                .addContainerGap())
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    /**
+     * Recuperamos el elemento seleccionado y convertimos el índice de cara a poder
+     * acceder a la lista de LogicaNegocio y que el orden de la tabla no nos afecte
+     * @param evt 
+     */
+    private void jButtonSeleccionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonSeleccionActionPerformed
+        int seleccionado = jTableAlumnos.getSelectedRow();
+        if (seleccionado != -1)
+        {
+            seleccionado = jTableAlumnos.convertRowIndexToModel(seleccionado);
+            jLabelSeleccionado.setText(logicaNegocio.getListaAlumnos().get(seleccionado).getNombre());
+        }
+        else
+            jLabelSeleccionado.setText("Ninguno");
+    }//GEN-LAST:event_jButtonSeleccionActionPerformed
+
+    private void jButtonFiltrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonFiltrarActionPerformed
+        //Establecemos un filtro
+        RowFilter<TableModelAlumnos,Integer> rf = RowFilter.regexFilter(jTextFieldFiltrar.getText(),0);
+        sorter.setRowFilter(rf);
+    }//GEN-LAST:event_jButtonFiltrarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -124,7 +209,12 @@ public class PantallaPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButtonFiltrar;
+    private javax.swing.JButton jButtonSeleccion;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabelSeleccionado;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable jTableAlumnos;
+    private javax.swing.JTextField jTextFieldFiltrar;
     // End of variables declaration//GEN-END:variables
 }

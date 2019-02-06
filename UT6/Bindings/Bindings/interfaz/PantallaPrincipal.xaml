@@ -7,20 +7,15 @@
         <Label Content="{Binding ElementName=TextboxPrueba,Path=Text}" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="120"/>
         <ComboBox x:Name="ComboboxPersonas" ItemsSource="{Binding Path=ListaPersonas}" HorizontalAlignment="Left" Margin="257,11,0,0" VerticalAlignment="Top" Width="233" SelectionChanged="ComboboxPersonas_SelectionChanged"/>
         <ListBox HorizontalAlignment="Left" ItemsSource="{Binding Path=ListaPersonas}" Height="191" Margin="10,118,0,0" VerticalAlignment="Top" Width="167"/>
-        <DataGrid HorizontalAlignment="Left" ItemsSource="{Binding Path=ListaPersonas}" AutoGenerateColumns="True" Margin="209,142,0,0" VerticalAlignment="Top" Height="167" Width="298" RenderTransformOrigin="0.5,0.5">
-            <DataGrid.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform AngleX="0.443"/>
-                    <RotateTransform/>
-                    <TranslateTransform X="-0.739"/>
-                </TransformGroup>
-            </DataGrid.RenderTransform>
+        <DataGrid HorizontalAlignment="Left" ItemsSource="{Binding Path=ListaPersonas}" AutoGenerateColumns="False" Margin="209,142,0,0" VerticalAlignment="Top" Height="167" Width="298" RenderTransformOrigin="0.5,0.5">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="APELLIDOS" Binding="{Binding Path=Apellidos}"/> 
+            </DataGrid.Columns>
         </DataGrid>
         <Label x:Name="LabelNombre" Content="Label" HorizontalAlignment="Left" Margin="257,38,0,0" VerticalAlignment="Top" Width="233"/>
         <Label x:Name="LabelNombre2" Content="{Binding ElementName=ComboboxPersonas,Path=SelectedItem}" HorizontalAlignment="Left" Margin="257,69,0,0" VerticalAlignment="Top" Width="233"/>
-        <Button x:Name="ButtonAniadir" Content="Añadir Persona" HorizontalAlignment="Left" Margin="393,98,0,0" VerticalAlignment="Top" Width="106" Click="ButtonAniadir_Click"/>
+        <Button x:Name="ButtonAniadir" Content="Añadir Persona" HorizontalAlignment="Left" Margin="401,79,0,0" VerticalAlignment="Top" Width="106" Click="ButtonAniadir_Click"/>
         <Button Content="Abrir pantalla" HorizontalAlignment="Left" Margin="212,98,0,0" VerticalAlignment="Top" Width="142" Click="Button_Click_1"/>
-
+        <Button x:Name="ButtonModificar" Content="Modificar Persona" HorizontalAlignment="Left" Margin="401,104,0,0" VerticalAlignment="Top" Width="106" Click="ButtonModificar_Click"/>
     </Grid>
 </Window>

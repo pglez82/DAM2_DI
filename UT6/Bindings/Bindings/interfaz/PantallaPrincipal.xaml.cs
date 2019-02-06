@@ -51,5 +51,10 @@ namespace Bindings
             ps.ShowDialog();
             
         }
+
+        private void ButtonModificar_Click(object sender, RoutedEventArgs e)
+        {
+            ListaPersonas[0].Apellidos = "Otro apellido";
+        }
     }
 }

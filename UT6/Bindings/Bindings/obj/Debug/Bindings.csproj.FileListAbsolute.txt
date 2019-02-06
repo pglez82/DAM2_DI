@@ -1,7 +1,6 @@
 c:\users\alumno\documents\visual studio 2012\Projects\Bindings\Bindings\bin\Debug\Bindings.exe.config
 c:\users\alumno\documents\visual studio 2012\Projects\Bindings\Bindings\bin\Debug\Bindings.exe
 c:\users\alumno\documents\visual studio 2012\Projects\Bindings\Bindings\bin\Debug\Bindings.pdb
-c:\users\alumno\documents\visual studio 2012\Projects\Bindings\Bindings\obj\Debug\Bindings.csprojResolveAssemblyReference.cache
 c:\users\alumno\documents\visual studio 2012\Projects\Bindings\Bindings\obj\Debug\App.g.cs
 c:\users\alumno\documents\visual studio 2012\Projects\Bindings\Bindings\obj\Debug\Bindings_MarkupCompile.cache
 c:\users\alumno\documents\visual studio 2012\Projects\Bindings\Bindings\obj\Debug\Bindings.g.resources

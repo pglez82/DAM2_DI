@@ -1,0 +1,10 @@
+﻿<Window x:Class="AltaModificacion.interfaz.PantallaPrincipal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Pantalla Principal" Height="246" Width="525">
+    <Grid>
+        <DataGrid x:Name="DataGridPersonas" CanUserAddRows="False" IsReadOnly="True" ItemsSource="{Binding Path=LogicaNegocio.ListaPersonas}" Margin="10,10,10,0" VerticalAlignment="Top" Height="170" MouseDoubleClick="DataGridPersonas_MouseDoubleClick"/>
+        <Button x:Name="BotonAlta" Content="Alta..." HorizontalAlignment="Left" Margin="10,185,0,0" VerticalAlignment="Top" Width="75" Click="BotonAlta_Click"/>
+
+    </Grid>
+</Window>

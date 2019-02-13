@@ -1,0 +1,12 @@
+﻿<Window x:Class="AltaModificacion.interfaz.DialogoPersona"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DialogoPersona" Height="158" Width="300">
+    <Grid>
+        <Button x:Name="BotonAceptar" Content="Aceptar" HorizontalAlignment="Left" Margin="10,97,0,0" VerticalAlignment="Top" Width="75" Click="BotonAceptar_Click" />
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="76,10,0,0" TextWrapping="Wrap" Validation.Error="Validation_Error"  Text="{Binding Path=Persona.Nombre,NotifyOnValidationError=True,ValidatesOnDataErrors=True}" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="76,38,0,0" TextWrapping="Wrap" Validation.Error="Validation_Error" Text="{Binding Path=Persona.Apellidos,NotifyOnValidationError=True,ValidatesOnDataErrors=True}" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Nombre:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Apellidos:" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
